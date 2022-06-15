@@ -4,6 +4,7 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    /* 设置背景图片 */
     background: url('../images/login_bg.jpg') no-repeat center;
     background-size: cover;
 }
