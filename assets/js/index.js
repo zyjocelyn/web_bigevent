@@ -13,7 +13,7 @@ $(function () {
             // 1.重新跳转到登录页面
             location.href = './login.html'
             layer.close(index)
-        });
+        })
     })
 })
 
@@ -34,7 +34,7 @@ function getUserInfo() {
             }
             // 调用 renderAvatar 渲染用户的头像
             renderAvatar(res.data)
-        },
+        }
         /* 防止通过直接修改路径跳转到主页  代码放在baseAPI.js*/
         /* // 无论成功还是失败，最终都会调用complete回调函数
         complete: function (res) {
